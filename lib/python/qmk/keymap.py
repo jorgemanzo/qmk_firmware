@@ -20,6 +20,10 @@ DEFAULT_KEYMAP_C = """#include QMK_KEYBOARD_H
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 __KEYMAP_GOES_HERE__
 };
+
+enum custom_keycodes {
+__CUSTOM_KEYCODES_HERE__
+}
 """
 
 
